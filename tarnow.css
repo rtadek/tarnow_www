@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'yanone_kaffeesatzregular';
+    src: url('fonty/yanonekaffeesatz-regular-webfont.eot');
+    src: url('fonty/yanonekaffeesatz-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonty/yanonekaffeesatz-regular-webfont.woff2') format('woff2'),
+         url('fonty/yanonekaffeesatz-regular-webfont.woff') format('woff'),
+         url('fonty/yanonekaffeesatz-regular-webfont.ttf') format('truetype'),
+         url('fonty/yanonekaffeesatz-regular-webfont.svg#yanone_kaffeesatzregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html, body {font-family: arial, helvetica, sans-serif;
+	font-size: 1.05em;
+	background-color: #366BAA;
+}
+
+/*	
+kolor żółty: f7e770, hfff28e, fff5ab
+kolor niebieski: 366baa
+ */
+
+body {background-image:url("tarnowtlo.png");
+}
+
+#rama {
+	/*overflow-y: auto;*/
+	background-color: #ffff9a;
+	color: #366baa;
+	width: 800px;
+	margin: 0 auto;
+	padding:0;
+	/*border: 1px solid #000*/
+}
+
+#tresc{overflow-y: auto;}
+
+.hmenu {
+	font-family:yanone_kaffeesatzregular;
+	border-bottom:  2px solid #366baa;
+	margin-bottom: 10px;
+	}
+
+.hmenu ul {
+	overflow: hidden;
+	background-color: #ffff9a;
+	padding:0 25px;
+	margin:0;
+}
+
+.hmenu li {
+	font-size: 26px;
+	float: left;
+	list-style-type: none;
+}
+
+.hmenu a {
+	display: block;
+	padding:8px 7px;
+	text-decoration: none;
+	color: #366baa;
+}
+	
+.hmenu li + li a {
+	border-left: 2px solid #366baa;
+}
+
+.hmenu a:hover {
+	background-color: #366baa;
+	color:#ffff9a;
+}
+
+.hmenu a.open {background-color: #366baa;
+	color:#ffff9a;
+	}
+
+/*p, h1, article	{
+	margin: 0;
+	padding: 10px;
+}*/
+
+
+article {
+	text-align: center;
+	padding: 0;
+}
+
+
+
+article p.zawartosc {
+	text-indent: 2em;
+	text-align: justify;
+	padding: 0 10px;
+	margin: 0;
+}
+
+article p.zawartosc:last-child {padding-bottom: 25px}
